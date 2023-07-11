@@ -26,7 +26,7 @@ main {
     
 }
 
-header {
+header  h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
     color: white;
@@ -34,11 +34,46 @@ header {
     padding-bottom: 30px;
 }
 
-header > p {
+header  p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 0.5em;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
     padding-bottom: 30px;
 }
+
+nav {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px ;
+
+}
+
+nav > a {
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imagens-logo {
+    display: flex;
+    
+    height: 35px;
+}
+
 main h1 {
     color: white;
     text-align: center;
@@ -47,11 +82,13 @@ main h1 {
     
 }
 
+
 .princial{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color: black;
     
 }
 
