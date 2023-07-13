@@ -18,10 +18,10 @@ main {
     background-image: linear-gradient(to bottom, #00000044, #4D4D4D, #8C8C8C, #dfdfdfa6 );
     margin: auto;
     padding: 10px;
-    margin-bottom: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 6px 4px 20px 0px rgba(180, 180, 180, 0.479);
+    margin-top: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 26px 26px 31px -19px rgba(180, 180, 180, 0.349)
     
     
 }
@@ -66,6 +66,7 @@ nav > a {
     color: white;
     text-align: center;
     padding-top: 30px;
+    
 }
 
 .imagens-logo {
