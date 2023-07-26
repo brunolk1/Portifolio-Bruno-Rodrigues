@@ -16,7 +16,7 @@ body {
 main {
     height: 96vh ;
     max-width: 800px;
-    background-image: linear-gradient(to bottom, #00000044, #4D4D4D, #a1a1a1, #ecececa6 );
+    background-color: rgb(244, 250, 255);
     margin: auto;
     padding: 10px;
     border-bottom-left-radius: 5px;
@@ -76,16 +76,17 @@ nav > a {
     font-size: 18px;
     color: white;
     background-color: rgba(128, 128, 128, 0.644);
-    padding: 5px;
+    padding: 3px;
     border-radius: 7px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;
+    
 }
 
 nav > a:hover {
     background-color: white;
     color: black;
+    transition-duration: .5s;
 }
 
 .logo {
@@ -130,6 +131,7 @@ main h1 {
     background-color: white; 
     text-align: justify;
     padding: 10px;
+    border: 1.5px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.336);
     margin-bottom: 30px;
@@ -137,7 +139,7 @@ main h1 {
 
 .minha-foto > img  {
     width: 100%;
-    display: block;
+    display: block;    
     padding-top: 10px;
     margin-bottom: 30px;
 
@@ -147,16 +149,19 @@ main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 97vh;
 }
 
 .contato {
     background-color: white;
+    border: 1.5px solid black;
     border-radius: 10px ;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-    font-size: 1em;    
+    font-size: 1em;
+    width: 400px;
     padding: 20px;
-    margin: 30px 0px 50px 0px;
+    margin: auto;
 }
 
 .contato h2 {
@@ -175,6 +180,35 @@ main h1 {
     text-decoration: underline;
     font-weight: bold;
     
+}
+
+.main-portifolio {
+    
+    background-color: white;
+}
+
+.section-portifolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.projeto1 img {
+    display: flex;
+    
+    height: 100px;
+}
+.projeto1:hover {
+    display: flex;
+    
+    height: 120px;
+}
+
+.projeto2 img {
+    display: flex;
+    
+    height: 100px;
 }
 
 div .youtube .insta .linkedin .github{
