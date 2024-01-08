@@ -13,17 +13,17 @@ body {
     background-color: black;
 }
 
-main {
+.main-sobre {
     height: 96vh ;
-    max-width: 800px;
+    max-width: 600px;
     background-color: rgb(244, 250, 255);
     margin: auto;
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 26px 26px 31px -19px rgba(180, 180, 180, 0.349);
-    
     position: relative;
+    
     
     
 }
@@ -152,6 +152,15 @@ main h1 {
     height: 97vh;
 }
 
+.main-contato {
+    
+    height: 96vh ;
+    max-width: 600px;
+    background-color: rgb(244, 250, 255);
+    margin: auto;
+    position: relative;
+}
+
 .contato {
     background-color: white;
     border: 1.5px solid black;
@@ -161,7 +170,10 @@ main h1 {
     font-size: 1em;
     width: 400px;
     padding: 20px;
-    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto; 
+
 }
 
 .contato h2 {
@@ -184,7 +196,11 @@ main h1 {
 
 .main-portifolio {
     
-    background-color: white;
+    height: 96vh ;
+    max-width: 600px;
+    background-color: rgb(244, 250, 255);
+    margin: auto;
+    position: relative;
 }
 
 .section-portifolio{
@@ -210,19 +226,20 @@ main h1 {
     
     height: 100px;
 }
-
-div .youtube .insta .linkedin .github{
-
-    text-decoration: none;
-
+.projeto2:hover {
+    display: flex;
+    
+    height: 120px;
 }
 
 
 .voltar {
     position: absolute;
     bottom: 0;
+    
 }
 
 .voltar img{
     width: 35px;
+    
 }
